@@ -70,6 +70,57 @@ _注意了：_
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+# 译者示例
+
+> vscode setting.json
+
+```json
+"todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "background": "#caa4a43a",
+    "foreground": "#df6f14",
+    "opacity": 50
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "background": "#caa4a43a",
+      "foreground": "#df6f14"
+    },
+    "unsafe": {
+      "background": "#f6f7f6",
+      "foreground": "rgb(255,128,0)"
+    },
+    "BUG": {
+      "icon": "bug"
+    },
+    "HACK": {
+      "icon": "tools"
+    },
+    "FIXME": {
+      "icon": "flame"
+    },
+    "XXX": {
+      "icon": "$(close)"
+    },
+    "[ ]": {
+    //   "background": "#ff000080"
+    },
+    "[x]": {
+      "foreground": "#00ff0080"
+    }
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "unsafe",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+```
+
 ## Highlighting
 
 > *信息！：*如果您只想为标记（tags）设置不同的颜色，现在可以启用`todo-tree.highlights.useColourScheme`。这将应用一组颜色（可以更改），按照标记定义的顺序设置。
