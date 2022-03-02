@@ -1,5 +1,12 @@
 # Regexs for various languages
 
+[explain]: http://llever.com/explain.svg
+[source]: https://github.com/chinanf-boy/Source-Explain
+[translate-svg]: http://llever.com/translate.svg
+[translate-list]: https://github.com/chinanf-boy/chinese-translate-list
+[size-img]: https://packagephobia.now.sh/badge?p=Name
+[size]: https://packagephobia.now.sh/result?p=Name
+
 <!-- doc-templite START generated -->
 <!-- repo = 'Gruntfuggly/todo-tree.wiki' -->
 <!-- commit = '70ee9d2b7cb1fc9067f67c9cc843d3b5709e1585' -->
@@ -10,7 +17,7 @@
 | [commit]   | ⏰ 2021-10-25 | ![last]  | [中文翻译][translate-list] |
 
 [last]: https://img.shields.io/github/last-commit/Gruntfuggly/todo-tree.wiki.svg
-[commit]: https://github.com/Gruntfuggly/todo-tree.wiki/tree/70ee9d2b7cb1fc9067f67c9cc843d3b5709e1585
+[commit]: https://github.com/Gruntfuggly/todo-tree/wiki/Configuration-Examples/70ee9d2b7cb1fc9067f67c9cc843d3b5709e1585
 
 <!-- doc-templite END generated -->
 
@@ -150,7 +157,7 @@
 
 -   帕格评论：`//- TODO: PUG EXAMPLE` (`\/\/-|`)
 -   BAT评论：`REM TODO: BAT example` (`REM|`)
--   降价清单：`- TODO: Markdown Example` (`-|`)
+-   Markdown 清单：`- TODO: Markdown Example` (`-|`)
 
 ```json
 "todo-tree.regex.regex": "((\/\/|\/\/-|#|<!--|;|REM|\/\\*|^|-)\\s*($TAGS))"
